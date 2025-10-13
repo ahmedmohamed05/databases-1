@@ -16,8 +16,6 @@
 
 **Solution**:
 
-<div align="center">
-
 ```mermaid
 
 erDiagram
