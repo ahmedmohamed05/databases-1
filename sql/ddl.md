@@ -43,9 +43,7 @@ create database DB1;
 
 it will give us an error says
 
-```
-Database 'DB1' already exists. Choose a different database name.
-```
+"Database 'DB1' already exists. Choose a different database name."
 
 because there is already a database with the same name
 
@@ -54,7 +52,7 @@ to avoid this we write this
 ```sql
 if not exists(select * from sys.databases where name = 'DB1')
 begin
-	create database DB1;
+  create database DB1;
 end
 ```
 
@@ -115,7 +113,7 @@ Just like [Create DB if not exists](#create-database-if-not-exist), But in rever
 ```sql
 if exists (select * from sys.databases where name = 'DB2')
 begin
-	drop database DB2;
+  drop database DB2;
 end
 ```
 
@@ -145,8 +143,8 @@ To do the same with the scripts this is the syntax
 
 ```sql
 create table [table name] (
-	[column name] [column type] [is nullable]
-	primary key ([column name])
+  [column name] [column type] [is nullable]
+  primary key ([column name])
 )
 ```
 
@@ -156,11 +154,11 @@ EX:
 use students;
 
 create table firstStage (
-	id int not null,
-	name nvarchar(50) not null,
-	phone_one nvarchar(15) not null,
-	phone_two nvarchar(15) null,
-	primary key (id)
+  id int not null,
+  name nvarchar(50) not null,
+  phone_one nvarchar(15) not null,
+  phone_two nvarchar(15) null,
+  primary key (id)
 )
 ```
 
