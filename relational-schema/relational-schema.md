@@ -296,7 +296,38 @@ Take a look at the enrollID number 4
 ### Generalization And Specialization
 
 Example
-![ERD](./generalization-specialization.svg)
+
+```mermaid
+flowchart TB
+  p[Person]
+  s[Student]
+  e[Employee]
+  p --- id(("`_id_`")) & bh((Birthdate)) & age((Age)):::dAttrib & fName((First Name)) & lName((Last Name))
+
+  p --- a[/is A\] --- s & e
+
+  rg((RegestNumber))
+  stuID(("`_StudentID_`"))
+
+  s --- rg & stuID
+
+  salary((Salary))
+  empID(("`_Employee ID_`"))
+
+  dev[Developer]
+  teacher[Teacher]
+
+  e --- b[\is A/] --- teacher & dev
+  e --- salary & empID
+
+  devID(("`*DevID*`"))
+  lang((Language))
+  teacherID(("`_TeacherID_`"))
+  deg((Degree))
+
+  dev --- devID & lang
+  teacher --- teacherID & deg
+```
 
 > Remember that the relationship is always Ont-To-One
 

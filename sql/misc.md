@@ -87,10 +87,15 @@ create table departments (
 
 ## Foreign Key Constant
 
+Notice:
+
 > PK and FK must have the same datatype
 
-> You can't create a table with PK before a table with PK
-> How can you link it ![alt text](image.png)
+Notice:
+
+> You can't create a table with PK before a table with PK How can you link it
+
+![alt text](image.png)
 
 The script will be like this
 
@@ -459,4 +464,6 @@ create table teachers
 )
 ```
 
-Extra Exercise: Do the same but with the **_alter_** command, Just copy the code above and remove the last line
+Extra Exercise: Do the same but with the **_alter_** command, Just copy the code above and remove the last line (The line the FK)
+
+Now let's learn some [queries](./dql.md)

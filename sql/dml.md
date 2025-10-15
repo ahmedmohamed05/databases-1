@@ -358,3 +358,5 @@ insert into youngPeople select * from people where age <= 20;
 | --- | ----- | --- |
 | 1   | Ahmed | 20  |
 | 2   | Ali   | 14  |
+
+Now Let's take some [miscellaneous](./misc.md) things

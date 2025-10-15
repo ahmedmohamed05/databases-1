@@ -42,7 +42,7 @@ flowchart LR
 
 ## Self Referencing Relationships
 
-[See for the recap](./relationships.md)
+[See for the recap](./relationships.md#self-referencing-relationship)
 
 ```mermaid
 flowchart LR
@@ -64,3 +64,5 @@ Now the ERD will look like this after knowing the nature of the relationship
 flowchart LR
   emp[Employee] ---|1| r1{managerOn} --- |m| emp
 ```
+
+Now see [many-to-one](./many-to-one-relationship.md) relationship

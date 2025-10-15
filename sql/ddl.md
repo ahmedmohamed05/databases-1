@@ -33,6 +33,8 @@ and thing press `ctrl+F5` to check your query, Than press `F5` to execute the qu
 
 > If you don't see the database just right click on the **_databases_** folder and click **_refresh_**
 
+---
+
 ## Create Database If Not Exist
 
 Now if we tried this query again
@@ -76,6 +78,8 @@ And finally we wrap all this inside an if statement that reverse the result if i
 
 > You can highlight any command and hit `F5` to execute the highlighted stuff
 
+---
+
 ## Switch Database
 
 > If we just open a new Query file it will execute on the **_master_** database
@@ -92,6 +96,8 @@ Ex:
 use students;
 ```
 
+---
+
 ## Drop Database (Delete/Remove)
 
 The following query used to drop(Delete/Remove) DBs
@@ -106,6 +112,8 @@ Ex:
 drop database DB1;
 ```
 
+---
+
 ## Drop Database If Exists
 
 Just like [Create DB if not exists](#create-database-if-not-exist), But in reverse
@@ -116,6 +124,8 @@ begin
   drop database DB2;
 end
 ```
+
+---
 
 ## Creating Tables
 
@@ -162,6 +172,8 @@ create table firstStage (
 )
 ```
 
+---
+
 ## SQL Data Types
 
 ![sql data types diagram](./data-types/sql-data-types.png)
@@ -204,6 +216,8 @@ They are types store exact numbers such as integer, decimal, or monetary amount.
 
 ![Other data types](./data-types/other-data-types.png)
 
+---
+
 ## Drop Tables
 
 You can use the mouse or this script
@@ -221,6 +235,8 @@ use students
 
 drop table firstStage
 ```
+
+---
 
 ## Alter Tables (Editing Tables)
 
@@ -337,3 +353,5 @@ alter table juniors drop column phone_two;
 ```
 
 This will remove **_phone_two_** column
+
+Now let's learn how to [backup and restore](./backup-restore.md) databases

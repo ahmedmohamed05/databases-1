@@ -43,6 +43,8 @@ select ID, FirstName, LastName from Employees;
 
 This will only return the table with the specific columns
 
+---
+
 ## Select Distinct Statement
 
 It return the data without duplicates, Just if you want to know for example what are the departments
@@ -56,6 +58,8 @@ Also works on more than one column
 ```sql
 select distinct departmentID, FirstName from Employees;
 ```
+
+---
 
 ## Where Statement
 
@@ -247,6 +251,8 @@ from Employees
 where MonthlySalary <= 210)
 ```
 
+---
+
 ## Order By
 
 Sorting Results
@@ -283,6 +289,8 @@ order by FirstName, MonthlySalary desc;
 ```
 
 It will check every entity with the same **_FirstName_** and than it will order them by salary descending
+
+---
 
 ## Select Top
 
@@ -336,6 +344,8 @@ order by MonthlySalary desc
 )
 order by MonthlySalary desc
 ```
+
+---
 
 ## Select As
 
@@ -709,7 +719,7 @@ Check if the name doesn't starts with the letters a, b and c
 
 ---
 
-## Now see joins in this [tutorial](../joins.md)
+## Now see joins in this [tutorial](./joins.md)
 
 ---
 
@@ -855,4 +865,4 @@ from Employees e;
 
 ## Constraints
 
-Now About [Constraints](../constraints.md)
+Now About [Constraints](./constraints.md)

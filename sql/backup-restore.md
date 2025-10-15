@@ -71,3 +71,5 @@ restore database Students from disk = 'C:\dbs-backups\students.bak';
 ```
 
 > You must use the same DB name
+
+Now You can backup your database and learn about [DML](./dml.md)

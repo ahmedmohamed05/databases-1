@@ -29,7 +29,7 @@ Relationships requirements:
 **Solution**:
 
 ```mermaid
-flowchart TD
+flowchart LR
   c[Customer]
   r1{Place}
   o[Order]
@@ -42,3 +42,5 @@ flowchart TD
 ```
 
 one customer can order many orders and many orders can contains many products at the same time many products can be inside may other orders
+
+Now complete reading about [cardinality vs ordinality](./relationships.md#cardinality-vs-ordinality)

@@ -2,15 +2,17 @@
 
 ## Normal Relationships
 
+there is a relationship between the student and the course, we can represent it like this
+
 ```mermaid
-flowchart LR
+flowchart TB
   student
   Course
 ```
 
-there is a relationship between the student and the course, we can represent it like this
-
 ---
+
+Now we connect the two tables with an additional info that tells what the action is
 
 ```mermaid
 flowchart LR
@@ -26,6 +28,8 @@ flowchart LR
   Employee --- mange{Mange} --- project
   customer --- consume{Consume} --- project
 ```
+
+---
 
 ## Self Referencing Relationship
 
@@ -104,8 +108,7 @@ flowchart LR
   c --- |1|r1 --- |0|o
 ```
 
-> Better Representation is like this
-> $$(ordinality, cardinality)$$
+> Better Representation is like this $(ordinality, cardinality)$
 
 ```mermaid
 flowchart LR

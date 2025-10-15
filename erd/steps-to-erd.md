@@ -11,3 +11,5 @@ Steps are
 4. **Identify Attributes**: what we want to store about the entities
 
 Now we can create our ERD
+
+Here Read about [Associative Entities](./associative-entity/associative-entity.md)

@@ -42,3 +42,5 @@ flowchart TD
 flowchart LR
   p[Head Coach] --- |1| r1{manages} --- |1| team[Football Team]
 ```
+
+Now see [one-to-many](./one-to-many-relationship.md) relationship
