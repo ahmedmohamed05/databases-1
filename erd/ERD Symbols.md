@@ -51,8 +51,6 @@ erDiagram
 
 As the example above show that One student can have many courses
 
-![Full Example](./images/full-erd-example.png)
-
 ---
 
 ## Composite Attribute
