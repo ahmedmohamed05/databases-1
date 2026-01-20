@@ -16,7 +16,7 @@ Now with **_SQL_** you can do all this in one line
 
 This will get all females student
 
-**_SQL_** stands for Structure Query Language, It si a communication tool with the DB, And lets you access and manipulate date
+**_SQL_** stands for Structure Query Language, It is a communication tool with the DB, And lets you access and manipulate data
 
 **_SQL_** is widely use in many DBMS such as Oracle, Sybase, Microsoft SQL Server, And Access
 
